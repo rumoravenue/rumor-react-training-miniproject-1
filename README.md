@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Bootstrap - Mini-project 1
 
-## Available Scripts
+## Overview
+Hello! This is a quick mini-project to help you learn React-Bootstrap. Complete this after completing the "React-Bootstrap" section of Module 6. 
 
-In the project directory, you can run:
+In this project, you will implement the UI of the TODO list you completed last week, using only React-Bootstrap components. 
 
-### `npm start`
+##  Figma
+Use [the figma](https://www.figma.com/file/jgwwR5Tdwd1JZOMKVPAGDN/React-Practicals?type=design&node-id=0%3A1&mode=dev&t=NF7A08PfE4qFjCcP-1) to see the details of the design. **Follow this design as closely as possible**. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone this repository using 
+```bash
+git clone https://github.com/rumoravenue/rumor-react-training-miniproject-1.git
+```
 
-### `npm test`
+Make a branch for yourself using
+```bash
+git checkout -b <your-name>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open the `rumor-react-training-miniproject-1` folder in VSCode.
 
-### `npm run build`
+To run React locally, you must have the following:
+- Node.js, follow [instructions to install](https://nodejs.org/en/download).
+- yarn, follow [instructions to install](https://classic.yarnpkg.com/lang/en/docs/install).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run `yarn install` to install all dependencies. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run `yarn start` to start the React app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Submission
+After you complete each part, submit your assignment by completing the following:
+- Open a pull request on the Github repository from your branch to main: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request 
+- Record a video demo using Loom: https://www.loom.com/community/how-to-record-your-first-video
+- Submit a link to your video demo and a link to the pull request to the Google Form in Google Classroom for this module. 
 
-### `npm run eject`
+## Your Task
+Your task is to implement **only the UI** of the todo list from assignment 1 using React Bootstrap. **Do not use CSS or any other styling**, only what React Bootstrap provides you. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**You are free to deviate from the colours/fonts** of the design above, be creative! We are looking to ensure that you can perform a simple layout in React Bootstrap.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The requirements are the same as part 1 of assignment 1, see below.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Requirements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+In this part, you will implement the basic elements of design of the todo list. Implement:
+- Each todo list item, including:
+  - The checkbox
+  - The title (#1: Item #1)
+  - The description
+- The text input for adding items
+- The "add to list" button
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### The finer points
+You may notice some small details in the Figma. Make sure to implement them. For example, some expected behaviour from the Figma:
+- The items in the todo list have a minimum width.
+- Some items in the todo list are formatted differently _based on their position in the list_. Pay attention to:
+  - The background colour
+  - The format of the text in the title
+- Some items in the list may have a different format when they are completed. 
